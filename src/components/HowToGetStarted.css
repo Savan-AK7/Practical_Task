@@ -1,0 +1,75 @@
+.how-to-get-started {
+    padding: 50px 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: left;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    margin: 0;
+}
+
+.heading p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25.2px;
+    margin: 9px 0 0;
+}
+
+.steps-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.step {
+    display: flex;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 20px;
+    width: 710px;
+}
+
+.step img {
+    width: 130px;
+    height: 130px;
+}
+
+.step-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step-content h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31.5px;
+    margin: 0;
+    color: #fefffa;
+}
+
+.step-content p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.12px;
+    margin: 5px 0 0;
+    color: #656565;
+}
+
+.campaign-image {
+    width: 710px;
+    height: 610px;
+}

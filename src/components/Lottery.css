@@ -1,0 +1,90 @@
+.lottery {
+    padding: 50px 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    margin: 0;
+}
+
+.heading p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25.2px;
+    margin: 9px 0 0;
+}
+
+.activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    padding: 30px;
+    width: 710px;
+}
+
+.activity-content {
+    text-align: left;
+}
+
+.activity-content h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31.5px;
+    margin: 0;
+    color: #fefffa;
+}
+
+.activity-content p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.12px;
+    margin: 5px 0 0;
+    color: #656565;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 50px;
+    border-radius: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.68px;
+    color: #1c1c1c;
+    margin-top: 20px;
+}
+
+.button.green {
+    background-color: #62cd5d;
+}
+
+.button.gray {
+    background-color: #656565;
+}
+
+.activity img {
+    width: 175px;
+    height: 135px;
+}

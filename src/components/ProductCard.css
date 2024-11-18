@@ -1,0 +1,99 @@
+.giveaway-products {
+    padding: 50px 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    margin: 0;
+}
+
+.heading p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25.2px;
+    margin: 9px 0 0;
+}
+
+.products-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    width: 375px;
+    background: linear-gradient(180deg, rgba(40,30,30,1) 0%, rgba(142,107,107,1) 100%);
+    border-radius: 20px;
+    padding: 100px 30px 20px;
+    text-align: center;
+}
+
+.product-image {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 267px;
+    height: 214px;
+    border-radius: 20px;
+}
+
+.prize-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #1c1c1c;
+    color: #fefffaff;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 24px;
+    line-height: 33.5px;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.medal-icon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.product-price span {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #fefffaff;
+}
+
+.product-name {
+    background-color: #1c1c1c;
+    border-radius: 16px;
+    padding: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.68px;
+    color: #fefffaff;
+}

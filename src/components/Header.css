@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    padding: 28px 100px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.coin, .currency {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fefffa;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.64px;
+}
+
+.coin img, .currency img {
+    margin-right: 10px;
+}
+
+.user-greeting {
+    display: flex;
+    flex-direction: column;
+    color: #fefffa;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.64px;
+}
+
+.user-icon img {
+    border-radius: 50%;
+}
+
